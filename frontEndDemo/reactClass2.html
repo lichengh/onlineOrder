@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8" />
+  <title>Hello React!</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+<body>
+
+<h1>React JSX + Component</h1>
+
+<div id="app"></div>
+
+<script type="text/babel">
+
+</script>
+
+<script type="text/babel">
+  // create virtual dom element
+  const ele = React.createElement('h1', {className: 'box'}, 'hello react!');
+
+  // render DOM
+  ReactDOM.render(
+          ele,
+          document.getElementById('app')
+  );
+
+</script>
+</body>
+</html>

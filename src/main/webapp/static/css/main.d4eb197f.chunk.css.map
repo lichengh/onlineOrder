@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAEA,QACI,YAAa,CACb,6BACJ","file":"main.d4eb197f.chunk.css","sourcesContent":["@import '~antd/dist/antd.css';\n\n.header {\n    display: flex;\n    justify-content: space-between;\n}"]}
