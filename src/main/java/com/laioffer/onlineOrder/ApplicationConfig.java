@@ -26,7 +26,7 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         String RDS_INSTANCE = "laiproject-instance.cr3xuhdhmdni.us-east-2.rds.amazonaws.com";
         String USERNAME = "admin";
-        String PASSWORD = "b1a2d3c4.";
+        String PASSWORD = "";
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://" + RDS_INSTANCE + ":3306/onlineOrder?createDatabaseIfNotExist=true&serverTimezone=UTC");
